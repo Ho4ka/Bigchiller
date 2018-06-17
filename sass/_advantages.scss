@@ -1,0 +1,38 @@
+.advantages {
+    display: flex;
+    .advantage-block {
+        width: 33.3%;
+        height: 30rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            margin-bottom: 7rem;
+            &-icon {
+                color: #fff;
+            }
+        }
+        &__p {
+            font-size: 1.6rem;
+            font-weight: 100;
+            color: rgb(255, 255, 255);
+            line-height: 1.333;
+            margin-bottom: 2.5rem;
+            letter-spacing: .3px;
+        }
+    }
+    .advantage-block-1 {
+        background-color: $color-primary-1;
+    }
+    .advantage-block-2 {
+        background-color: rgb(86, 192, 211);
+    }
+    .advantage-block-3 {
+        background-color: rgb(142, 213, 226);
+    }
+}

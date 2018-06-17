@@ -1,0 +1,40 @@
+.slider {
+    background-color: saddlebrown;
+    height: 51rem;
+    .swiper-container {
+        height: 51rem;
+    }
+    .swiper-slide {
+        height: 51rem;
+        background-image: url("../img/main.svg");
+        background-size: cover;
+        background-position: top 75% left 50%;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+    }
+    .swiper-pagination-bullets {
+        display: flex;
+        justify-content: flex-end;
+        top: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+    }
+    .swiper-pagination-bullet {
+        background: white;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: rgb(1, 159, 188);
+    }
+    .heading-1 {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 0.831;
+        font-size: 7.2rem;
+        position: absolute;
+        margin-top: 2px;
+        padding-left: 3rem;
+        text-transform: uppercase;
+    }
+}
