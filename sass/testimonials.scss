@@ -1,16 +1,44 @@
 .testimonials {
     display: flex;
     flex-direction: column;
+
     .testimonial {
         width: 33.3%;
         position: relative;
+        height: 40rem;
+       
         &-photo {
-            height: 28rem;
+            height: 30rem;
             background-image: url('../img/testimonial-1.jpg');
-            background-position: cover;
+           background-size: cover;
+           background-position: center;
         }
+
+
         &__whiteSpace {
             height: 12rem;
+        }
+
+        &__text {
+            height: 15rem;
+            width: 93%;
+            background-color: #fff;
+            position: absolute;
+            top: 25rem;
+            padding-left: 3rem;
+            padding-top: 20px;
+            font-weight: 300;
+
+           &-p {
+               font-size: 1.4rem;
+            color: rgb(40, 40, 40);
+            line-height: 1.5;
+           }
+               
+               
+                
+              
+              
         }
     }
 }
