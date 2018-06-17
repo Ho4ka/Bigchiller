@@ -261,7 +261,7 @@ body {
     height: 51rem; }
   .slider .swiper-slide {
     height: 51rem;
-    background-image: url("../img/main.svg");
+    background-image: url("../img/main.jpg");
     background-size: cover;
     background-position: top 75% left 50%;
     display: flex;
