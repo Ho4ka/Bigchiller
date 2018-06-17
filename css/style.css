@@ -296,7 +296,7 @@ body {
     position: relative; }
     .testimonials .testimonial-photo {
       height: 28rem;
-      background-image: url("/img/testimonial-1.jpg");
+      background-image: url("../img/testimonial-1.jpg");
       background-position: cover; }
     .testimonials .testimonial__whiteSpace {
       height: 12rem; }
