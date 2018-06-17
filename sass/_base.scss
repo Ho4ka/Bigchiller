@@ -59,7 +59,7 @@ body {
 .btn-white {
     width: 13.5rem;
     height: 3.5rem;
-    border-radius: 2.5rem;
+    border-radius: 10rem;
     background-color: #fff;
     border: none;
     text-transform: uppercase;
@@ -71,12 +71,19 @@ body {
     font-weight: 700;
     align-self: flex-end;
     position: absolute;
-top: 85%;
-left: 79.5%;
--webkit-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-text-align: center;
+    top: 85%;
+    left: 79.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
+.heading-2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+    line-height: 1;
 }
 
 .heading-3 {
@@ -86,4 +93,8 @@ text-align: center;
     font-weight: bold;
     line-height: 1;
     letter-spacing: 3px;
+}
+
+.chiller {
+    color: $color-primary-1;
 }
