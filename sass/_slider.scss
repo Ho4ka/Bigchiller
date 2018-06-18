@@ -6,7 +6,10 @@
     }
     .swiper-slide {
         height: 51rem;
-        background-image: url("../img/main.jpg");
+       
+
+        background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1)),url('../img/main.jpg');;
+  
         background-size: cover;
         background-position: top 75% left 50%;
         display: flex;

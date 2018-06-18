@@ -1,44 +1,83 @@
 .testimonials {
     display: flex;
-    flex-direction: column;
-
+    
     .testimonial {
         width: 33.3%;
         position: relative;
         height: 40rem;
-       
+        overflow: hidden;
         &-photo {
             height: 30rem;
-            background-image: url('../img/testimonial-1.jpg');
-           background-size: cover;
-           background-position: center;
+            
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            transform: scale(1.1);
+            transition: all .2s;
         }
 
+        &-photo:hover {
+            transform: scale(1);
+        }
+        &-photo-1{
+            
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)),url('../img/testimonial-1.jpg');;
+            background-position: center;
+        }
 
+        &-photo-2{
+           
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)),url('../img/testimonial-2.jpg');;
+            background-position: top;
+        }
+
+        &-photo-3{
+        
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)),url('../img/testimonial-3.jpg');;
+            background-position: top;
+        }
+
+        &__nameAndQuote {
+            display: flex;
+            flex-direction: column;
+            padding-left: 5rem;
+            margin-bottom: 4.7rem;
+        }
+        &__icon {
+            color: $color-primary-1;
+            margin-bottom: 1rem;
+        }
+
+        &__name {
+            
+                font-size: 2rem;
+               
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                line-height: 1;
+                text-transform: uppercase;
+              }
+              
+        
         &__whiteSpace {
             height: 12rem;
         }
-
         &__text {
             height: 15rem;
             width: 93%;
             background-color: #fff;
             position: absolute;
             top: 25rem;
-            padding-left: 3rem;
+            padding-left: 5rem;
             padding-top: 20px;
             font-weight: 300;
-
-           &-p {
-               font-size: 1.4rem;
-            color: rgb(40, 40, 40);
-            line-height: 1.5;
-           }
-               
-               
-                
-              
-              
+            &-p {
+                font-size: 1.4rem;
+                color: rgb(40, 40, 40);
+                line-height: 1.5;
+            }
         }
     }
 }

@@ -53,6 +53,14 @@ body {
     font-weight: bold;
     line-height: 1.311;
     text-transform: uppercase;
+    transition: all .2s;
+}
+
+.hairAchiller:hover {
+    -webkit-transform: translateY(-1px);
+transform: translateY(-1px);
+box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+outline: none;
 }
 
 // White button 
