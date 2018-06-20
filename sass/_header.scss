@@ -19,14 +19,14 @@
         justify-content: space-between;
         list-style: none;
         li {
-            margin-left: 6rem;
+            margin-left: 4rem;
         }
         &__item-link {
             a {
                 text-decoration: none;
                 font-size: 1.4rem;
                 color: $color-primary-1;
-                font-weight: 500;
+                font-weight: bold;
                 line-height: 1.311;
                 transition: all .1s;
             }
@@ -37,7 +37,7 @@
         &__item-dropDown {
             font-size: 1.4rem;
             color: rgb(40, 40, 40);
-            font-weight: 500;
+            font-weight: bold;
             line-height: 1.311;
             position: relative;
         }
@@ -49,9 +49,11 @@
             background-color: #f9f9f9;
             min-width: 13rem;
             height: 7rem;
+            font-weight: bold;
             left: -1rem;
-            top: 2rem;
-            z-index: 1;
+            top: 2.5rem;
+           
+            z-index: 1111;
             a {
                 display: block;
                 width: 100%;
@@ -87,9 +89,9 @@
             background-image: -webkit-linear-gradient( 90deg, rgb(20, 193, 165) 0%, rgb(126, 222, 206) 100%);
             background-image: -ms-linear-gradient( 90deg, rgb(20, 193, 165) 0%, rgb(126, 222, 206) 100%);
             color: rgb(255, 255, 255);
-            font-weight: 500;
+            font-weight: bold;
             line-height: 1.311;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             text-align: center;
             display: flex;
             justify-content: center;

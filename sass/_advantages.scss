@@ -15,7 +15,9 @@
             margin-bottom: 7rem;
             &-icon {
                 color: #fff;
+                transition: all 1.2s;
             }
+            
         }
         &__p {
             font-size: 1.6rem;
@@ -25,6 +27,10 @@
             margin-bottom: 2.5rem;
             letter-spacing: .3px;
         }
+    }
+    .advantage-block:hover .fas{
+        -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
     }
     .advantage-block-1 {
         background-color: $color-primary-1;

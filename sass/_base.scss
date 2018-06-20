@@ -31,12 +31,14 @@ html {
 
 body {
     font-family: $font-primary;
+    position: relative;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 // Hair a Chiller button 
@@ -45,8 +47,8 @@ body {
     background-image: -webkit-linear-gradient( 90deg, rgb(20, 193, 165) 0%, rgb(126, 222, 206) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(20, 193, 165) 0%, rgb(126, 222, 206) 100%);
     border: 0;
-    width: 167px;
-    height: 38px;
+    width: 20rem;
+    height: 4.6rem;
     border-radius: 2.5rem;
     font-size: 1.8rem;
     color: rgb(255, 255, 255);
@@ -58,9 +60,9 @@ body {
 
 .hairAchiller:hover {
     -webkit-transform: translateY(-1px);
-transform: translateY(-1px);
-box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
-outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    outline: none;
 }
 
 // White button 
@@ -75,7 +77,6 @@ outline: none;
     color: rgb(1, 159, 188);
     font-weight: bold;
     line-height: 1.311;
-    letter-spacing: 1px;
     font-weight: 700;
     align-self: flex-end;
     position: absolute;
@@ -84,6 +85,102 @@ outline: none;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    transition: all .2s;
+}
+
+.btn-white:hover {
+    background-color: rgba(255, 255, 255, 0.753);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+// Black button 
+.btn-black {
+    border: none;
+    text-transform: uppercase;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 25rem;
+    color: #fff;
+    background-image: -moz-linear-gradient( 90deg, rgb(40, 40, 40) 0%, rgb(119, 119, 119) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(40, 40, 40) 0%, rgb(119, 119, 119) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(40, 40, 40) 0%, rgb(119, 119, 119) 100%);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 0.407;
+    align-self: flex-end;
+    margin-top: -7rem;
+    i {
+        margin-right: 5px;
+    }
+}
+
+// Round button 
+.btn-round {
+    margin-left: auto;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.09);
+    width: 53px;
+    height: 53px;
+    display: inline-block;
+    position: relative;
+    bottom: 1.5rem;
+    i {
+        color: $color-primary-1;
+    }
+}
+
+// Menthol button
+.btn-menthol {
+    background-image: -moz-linear-gradient( 90deg, rgb(1, 159, 188) 0%, rgb(142, 213, 226) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(1, 159, 188) 0%, rgb(142, 213, 226) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(1, 159, 188) 0%, rgb(142, 213, 226) 100%);
+    border: none;
+    text-transform: uppercase;
+    width: 13rem;
+    color: #fff;
+    height: 3.6rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 25rem;
+}
+
+// Footer button 
+.footer-btn {
+    border: none;
+    text-transform: uppercase;
+    width: 13.3rem;
+    height: 3rem;
+    z-index: 142;
+    font-size: 1.4rem;
+    border-radius: 25rem;
+    background-color: #fff;
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+    line-height: 1.311;
+}
+
+// Location button
+.btn-location {
+    background-image: -moz-linear-gradient( 90deg, rgb(1, 159, 188) 0%, rgb(142, 213, 226) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(1, 159, 188) 0%, rgb(142, 213, 226) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(1, 159, 188) 0%, rgb(142, 213, 226) 100%);
+    border: none;
+    text-transform: uppercase;
+    width: 19.3rem;
+    height: 3.5rem;
+    border-radius: 25rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.311;
+    font-size: 1.63rem;
+    margin-top: 4rem;
+margin-bottom: 2rem;
+    &__icon {
+        width: 15px;
+        height: 15px;
+        fill: white;
+    }
 }
 
 .heading-2 {
@@ -105,15 +202,12 @@ outline: none;
 }
 
 .heading-4 {
-        text-transform: uppercase;
-       font-size: 1.4rem;
-        color: rgb(40, 40, 40);
-        font-weight: bold;
-        line-height: 1.311;
-        margin-bottom: 2rem;
-       
-      
-      
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+    line-height: 1.311;
+    margin-bottom: 2rem;
 }
 
 .chiller {

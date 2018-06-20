@@ -1,6 +1,50 @@
 .callToAction-main {
-    background-color: violet;
+    height: 45rem;
+    background-image: url('../img/callToMain.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+align-items: flex-end;
+    &-text-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        position: relative;
+        top: 1px;
+        padding-left: 3rem;
+        padding-right: 3rem;
 
-    grid-column: 1 / -1;
-    grid-row: 9 / 10;
+        .order {
+           
+                font-size: 6.9rem;
+                font-family: "Futura";
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                line-height: 0.831;
+                text-align: left;
+                -moz-transform: matrix( 1.03383709599963,0,0,1.03649567632774,0,0);
+                -webkit-transform: matrix( 1.03383709599963,0,0,1.03649567632774,0,0);
+                -ms-transform: matrix( 1.03383709599963,0,0,1.03649567632774,0,0);
+              text-transform: uppercase;
+              
+              
+        }
+        .coolit {
+        
+                font-size: 27px;
+                font-family: "Futura";
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                line-height: 0.851;
+                text-align: left;
+                -moz-transform: matrix( 1.03383709599963,0,0,1.03649567632774,0,0);
+                -webkit-transform: matrix( 1.03383709599963,0,0,1.03649567632774,0,0);
+                -ms-transform: matrix( 1.03383709599963,0,0,1.03649567632774,0,0);
+                
+              
+              
+        }
+    }
 }
